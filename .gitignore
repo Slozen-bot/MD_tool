@@ -1,0 +1,14 @@
+node_modules/
+dist/
+*.log
+.DS_Store
+
+# Tauri
+src-tauri/target/
+
+# 本地开发工具 / 备份（不纳入版本管理）
+.claude/
+.cospec/
+.costrict/
+.roo/
+.ui-backup-*/

@@ -1,0 +1,23 @@
+{
+  "name": "md-tool",
+  "version": "1.0.0",
+  "description": "Tauri Markdown Editor",
+  "scripts": {
+    "dev": "tauri dev",
+    "build": "tauri build",
+    "start": "tauri dev",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "build:tauri-api": "node scripts/build-tauri-api.js"
+  },
+  "dependencies": {
+    "@tauri-apps/api": "^2.0.0",
+    "marked": "^9.0.0"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^2.0.0",
+    "esbuild": "^0.28.1",
+    "highlight.js": "^11.0.0",
+    "jest": "^29.0.0",
+    "jest-environment-jsdom": "^30.4.1"
+  }
+}

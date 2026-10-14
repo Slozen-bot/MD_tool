@@ -1,0 +1,28 @@
+{
+  "productName": "MD Tool",
+  "version": "1.0.0",
+  "identifier": "com.example.md-tool",
+  "build": {
+    "frontendDist": "../src/renderer"
+  },
+  "app": {
+    "withGlobalTauri": false,
+    "windows": [
+      {
+        "title": "MD Tool",
+        "width": 1200,
+        "height": 800,
+        "decorations": false,
+        "devtools": false
+      }
+    ],
+    "security": {
+      "csp": "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self'; connect-src 'self'"
+    }
+  },
+  "bundle": {
+    "active": true,
+    "targets": "nsis",
+    "icon": ["icons/icon.png"]
+  }
+}
