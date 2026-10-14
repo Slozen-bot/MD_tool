@@ -12,3 +12,4 @@ src-tauri/target/
 .costrict/
 .roo/
 .ui-backup-*/
+.workbuddy-ai/
